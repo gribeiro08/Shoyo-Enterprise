@@ -7,7 +7,7 @@ export default () => {
     <div className="Cards">
         <PageTitle title="Avisos Gerais" />
         <Card title="Aviso 1" content="o kami ta me devendo um minezin" data = "21/10" />
-        <Card title="Titulo Filho"/>
+        <Card title="Aviso 2"content="lorem" data = "20/10"/>
     </div>
     )
 }
