@@ -1,17 +1,20 @@
 import React from 'react'
 
 import Card from './components/layout/Card'
-
+import "./App.css"
 
 export default () =>{
     return (
-    <>
-    <h1>Shoyo Enterprises</h1>
-    <div id="app">
-    </div>
-    <Card titulo="Titulo">
+    <div className="App">
+        <h1>Shoyo Enterprises</h1>
+        <div className="Cards">
+            <Card titulo="Titulo Pai">
 
-    </Card>
-    </>
+            </Card>
+            <Card titulo="Titulo Filho">
+
+            </Card>
+        </div>
+    </div>
     )
 }

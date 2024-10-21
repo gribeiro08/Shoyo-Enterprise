@@ -2,7 +2,11 @@
     background-color: aquamarine;
     border-radius: 15px;
     overflow: hidden;
-    margin-top: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Card .Title {
@@ -14,4 +18,5 @@
     padding: 20px;
     text-align: center;
     background-color: aliceblue;
+    flex-grow: 1;
 }
