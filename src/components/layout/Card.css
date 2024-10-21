@@ -1,6 +1,8 @@
 .Card{
     background-color: aquamarine;
-    border-radius: 15px 15px 15;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
 }
 
 .Card .Title {
@@ -10,5 +12,6 @@
 
 .Card .Content {
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    background-color: aliceblue;
 }
