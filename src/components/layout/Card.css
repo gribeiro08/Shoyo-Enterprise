@@ -1,0 +1,14 @@
+.Card{
+    background-color: aquamarine;
+    border-radius: 15px 15px 15;
+}
+
+.Card .Title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.Card .Content {
+    padding: 20px;
+    text-align: left;
+}
