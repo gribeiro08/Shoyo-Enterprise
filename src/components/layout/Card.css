@@ -1,5 +1,5 @@
 .Card{
-    background-color: aquamarine;
+    background-color: rgb(221, 221, 221);
     border-radius: 15px;
     overflow: hidden;
     margin: 10px;
@@ -7,6 +7,7 @@
     width: 150px;
     display: flex;
     flex-direction: column;
+    border: 3px solid rgb(221, 221, 221);
 }
 
 .Card .Title {
@@ -17,6 +18,6 @@
 .Card .Content {
     padding: 20px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: white;
     flex-grow: 1;
 }

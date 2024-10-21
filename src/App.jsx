@@ -1,20 +1,21 @@
 import React from 'react'
-
-import Card from './components/layout/Card'
+import Content from './components/layout/Content'
+import AppTitle from './components/layout/AppTitle'
+import SideMenu from './components/layout/SideMenu'
+import { BrowserRouter } from  'react-router-dom'
 import "./App.css"
 
-export default () =>{
-    return (
+const App = props =>(
     <div className="App">
-        <h1>Shoyo Enterprises</h1>
-        <div className="Cards">
-            <Card titulo="Titulo Pai">
-
-            </Card>
-            <Card titulo="Titulo Filho">
-
-            </Card>
-        </div>
+        <AppTitle />
+        <section className='AppContent'>
+            <BrowserRouter>
+                <SideMenu />
+                <Content />
+            </BrowserRouter>
+        </section>
+        
     </div>
-    )
-}
+)
+
+export default App;

@@ -4,9 +4,10 @@ import './Card.css'
 export default props => {
     return(
         <div className="Card">
-            <h2 className="Title">{props.titulo}</h2>
+            <h2 className="Title">{props.title}</h2>
             <div className="Content">
-                {props.children}
+                <p> { props.content} </p>
+                <p> { props.data} </p>
             </div>
         </div>
     )
