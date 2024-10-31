@@ -12,11 +12,10 @@ export default () => {
         const fetchAvisos = async () => {
             try {
                 const response = await fetch("/home");
-                console.log(await response.text()); // Isso vai mostrar o conteúdo exato retornado pela API
                 if (!response.ok) {
                     throw new Error(`Erro: ${response.status} - ${response.statusText}`);
                 }
-                const data = await response.json(); // Aqui pode estar o erro
+                const data = await response.json();// Aqui pode estar o erro
                 setAvisos(data);
             } catch (error) {
                 setError(error.message);

@@ -3,7 +3,7 @@ require("dotenv").config({ path: "./config.env" });
 
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // Criando uma instância de MongoClient para ser reutilizada
 const client = new MongoClient(process.env.ATLAS_URI);
